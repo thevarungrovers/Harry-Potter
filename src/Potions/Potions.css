@@ -1,0 +1,40 @@
+.potions-heading{
+    margin: 10px;
+}
+
+.potion{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+    text-wrap: wrap;
+}
+
+.potion-image-container img{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+
+.potion-title{
+    font-size: 30px;
+}
+
+.potion-details-container{
+    margin-left: 10px;
+    width: 60vw;
+}
+.detail-title{
+    font-weight: 700;
+}
+
+.detail-value{
+    margin-left: 5px;
+    font-style: italic;
+}
+
+@media screen and (min-width:768px){
+    .potion-details-container{
+        width: 20vw;
+    }
+}
