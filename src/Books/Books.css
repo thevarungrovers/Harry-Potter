@@ -1,0 +1,31 @@
+.books-heading{
+    margin: 10px;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card-container div{
+    margin: 10px;
+    width: 50vw;
+}
+
+.book-details-container{
+    margin-right: 5px;
+}
+
+.book-details{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+@media screen and (min-width:700px) {
+    .card-container div{
+        width: 20vw;
+    }
+}
