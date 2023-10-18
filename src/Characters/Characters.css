@@ -1,0 +1,12 @@
+.characters-heading{
+    margin: 10px;
+}
+
+.character img{
+    height: 150px;
+    width: 150px;
+}
+
+.wand-title{
+    font-weight: 600;
+}
